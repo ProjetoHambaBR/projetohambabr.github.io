@@ -62,3 +62,11 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+// Enable tooltip
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+// Wow instance
+new WOW().init();

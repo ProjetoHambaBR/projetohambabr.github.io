@@ -60,6 +60,18 @@ gulp.task('vendor', function() {
       './node_modules/simple-line-icons/css/**',
     ])
     .pipe(gulp.dest('./vendor/simple-line-icons/css'))
+  
+  // Animatejs
+  gulp.src([
+    './node_modules/node_modules/animate.css/animate.css'
+  ])
+  .pipe(gulp.dest('./vendor/animate'))
+
+  // WOWJS
+  gulp.src([
+    './node_modules/wowjs/dist/wow.js'
+  ])
+  .pipe(gulp.dest('./vendor/wow'))
 
 });
 

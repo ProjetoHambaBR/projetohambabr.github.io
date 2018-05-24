@@ -12,6 +12,7 @@
   background-size: cover;
   background-attachment: fixed;
   h1 {
+    font-family: 'Dosis';
     font-size: 4rem;
     margin: 0;
     padding: 0;
@@ -22,4 +23,8 @@
       font-size: 5.5rem;
     }
   }
+}
+
+.title-color {
+  color: #ffffff;
 }
