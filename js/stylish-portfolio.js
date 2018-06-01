@@ -70,3 +70,18 @@ $(function () {
 
 // Wow instance
 new WOW().init();
+
+// menu in other pages
+console.log(window.location.pathname);
+$(document).ready(function() {
+  if (window.location.pathname != '/') {
+    menuItem = $('.js-scroll-trigger');
+    $.each(menuItem, function(e) {
+      item = $('.js-scroll-trigger')[e];
+      itemId = item.id;
+      if (itemId.substring(itemId.length-4, itemId.length) === "link") {
+        $('#' + itemId).attr('href', '/'+item.hash);
+      }
+    });
+  }
+});
