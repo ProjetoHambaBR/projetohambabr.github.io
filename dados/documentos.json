@@ -2,7 +2,13 @@
     {
         "titulo": "Especificação de Requisitos",
         "descricao": "Documento de especificação de requisitos do aplicativo Hamba",
-        "versao": "1.6 - 27/05/2018",
+        "versao": "1.8 - 12/06/2018",
         "linkDoc": "https://docs.google.com/document/d/1Vn2hWZyJAesSxBEYE2Yk8y3VDy54xxSMBNC1TD8JDU8/edit?usp=sharing"
+    },
+    {
+        "titulo": "Plano de Projeto",
+        "descricao": "Documento de plano de projeto do aplicativo Hamba",
+        "versao": "1.5 - 18/06/2018",
+        "linkDoc": "https://docs.google.com/document/d/1-FHR362-kYI4e064toqyDKS8QiDoeybNXOrtOzorMuc/edit?usp=sharing"
     }
 ]
