@@ -1,21 +1,9 @@
 {
-  "name": "AgilePoker",
-  "short_name": "AgilePoker",
-  "theme_color": "#e15e36",
-  "background_color": "#fff",
+  "name": "Hamba",
+  "short_name": "Hamb",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
   "display": "standalone",
-  "start_url": "/",
-  "icons": [
-    {
-      "src": "img/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "img/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-  ],
-  "splash_pages": null
+  "scope": "/",
+  "start_url": "/"
 }
